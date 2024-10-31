@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cbf6c4f-fa96-4749-9b36-cddf6b0e2c64" name="변경" comment="" />
+    <list default="true" id="6cbf6c4f-fa96-4749-9b36-cddf6b0e2c64" name="변경" comment="2024.10.31 최종">
+      <change beforePath="$PROJECT_DIR$/DBminiPTL/src/main/resources/templates/thymeleaf/receipt.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBminiPTL/src/main/resources/templates/thymeleaf/receipt.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,12 +43,12 @@
     &quot;assignee&quot;: &quot;Woo3574&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/BlackMoreCode/MiniProjectHSThymeLeaf.git&quot;,
-    &quot;accountId&quot;: &quot;6ce6fe45-b811-4a37-8720-c64a0dd0fe3a&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Woo3574/DBMiniProject.git",
+    "accountId": "6ce6fe45-b811-4a37-8720-c64a0dd0fe3a"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -55,15 +57,16 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/MiniProjectHSThymeLeaf&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/dev/ProjectHSThymeLeaf",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "애플리케이션.DBminiPtlApplication.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="DBminiPTL" />
@@ -88,6 +91,35 @@
       <option name="presentableId" value="Default" />
       <updated>1730352347405</updated>
     </task>
+    <task id="LOCAL-00001" summary="2024.10.31 최종">
+      <option name="closed" value="true" />
+      <created>1730352615805</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730352615805</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2024.10.31 최종">
+      <option name="closed" value="true" />
+      <created>1730353009105</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730353009105</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2024.10.31 최종">
+      <option name="closed" value="true" />
+      <created>1730354495973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730354495973</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2024.10.31 최종" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.10.31 최종" />
   </component>
 </project>
