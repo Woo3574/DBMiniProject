@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cbf6c4f-fa96-4749-9b36-cddf6b0e2c64" name="변경" comment="2024.10.31 최종">
-      <change beforePath="$PROJECT_DIR$/DBminiPTL/src/main/resources/templates/thymeleaf/receipt.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBminiPTL/src/main/resources/templates/thymeleaf/receipt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBminiPTL/src/main/java/projectHS/DBminiPTL/DAO/Acc_InfoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/DBminiPTL/src/main/java/projectHS/DBminiPTL/DAO/Acc_InfoDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/dev/ProjectHSThymeLeaf",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "애플리케이션.DBminiPtlApplication.executor": "Run"
+    "애플리케이션.DBminiPtlApplication.executor": "Debug"
   }
 }]]></component>
   <component name="RunManager">
@@ -115,11 +116,38 @@
       <option name="project" value="LOCAL" />
       <updated>1730354495973</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2024.10.31 최종">
+      <option name="closed" value="true" />
+      <created>1730354600824</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730354600824</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2024.10.31 최종">
+      <option name="closed" value="true" />
+      <created>1730361756505</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730361756505</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2024.10.31 최종" />
     <option name="LAST_COMMIT_MESSAGE" value="2024.10.31 최종" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DBminiPTL/src/main/java/projectHS/DBminiPTL/DAO/Acc_InfoDAO.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

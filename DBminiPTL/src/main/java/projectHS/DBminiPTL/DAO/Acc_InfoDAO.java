@@ -10,9 +10,7 @@ import projectHS.DBminiPTL.Common.Common;
 import projectHS.DBminiPTL.VO.Acc_InfoVO;
 
 import java.sql.*;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
