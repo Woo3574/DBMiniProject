@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <title>BURGERZIP SIGNUP RESULT</title>
+  <link rel="stylesheet" th:href="@{/css/style_main.css}">
+</head>
+<style>
+  .success {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: center;
+    /* 중앙 정렬 추가 */
+  }
+
+  .failure {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: center;
+    /* 중앙 정렬 추가 */
+  }
+</style>
+
+<body>
+  <div id="wrap_signup">
+    <div id="area">
+      <div id="header">
+        <img
+          src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F64Fyi%2FbtsKopBV7f8%2FV9c159yoKN4R6s0C6HV2i0%2Fimg.png"
+          width="100" />
+        <br>
+        <h3>버거집 회원가입 결과🍔</h3>
+        <p>안녕하세요 고객님, 버거집입니다.</p>
+        <p>버거집 회원가입 결과 페이지입니다.</p>
+
+        <br><br>
+
+        <!-- Success Message -->
+        <div th:if="${isSuccess}" class="success">
+          회원가입 성공
+        </div>
+
+        <!-- Failure Message -->
+        <div th:if="${!isSuccess}" class="failure">
+          회원가입 실패
+        </div>
+      </div>
+
+      <br><br><br><br><br><br><br>
+
+      <span class="submit"><input type="button" value="재작성 하기" onclick="history.go(-1);" /></span>
+      <span class="submit"><input type="button" value="로그인 페이지" onclick="window.location.href='/main';" /></span>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <title>BURGERZIP CUSTOMER ACCOUNT DELETE</title>
+  <link rel="stylesheet" th:href="@{/css/style_customer.css}">
+  <style>
+    .success {
+      color: green;
+      font-weight: bold;
+      font-size: 18px;
+      margin: 20px 0;
+      text-align: center;
+      /* 중앙 정렬 추가 */
+    }
+
+    .failure {
+      color: red;
+      font-weight: bold;
+      font-size: 18px;
+      margin: 20px 0;
+      text-align: center;
+      /* 중앙 정렬 추가 */
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wrap_customer_mypage">
+    <div id="area">
+      <div id="header">
+        <img
+          src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F64Fyi%2FbtsKopBV7f8%2FV9c159yoKN4R6s0C6HV2i0%2Fimg.png"
+          width="100" />
+        <br>
+        <h3>버거집 CUSTOMER 회원 계정 삭제 결과🍔</h3>
+        <p>안녕하세요 고객님,</p>
+        <p>여기는 회원 계정 삭제 결과 페이지입니다.</p><br>
+
+        <!-- Success Message -->
+        <div th:if="${isSuccess}" class="success">
+          <p>회원 삭제 성공</p>
+        </div>
+
+        <!-- Failure Message -->
+        <div th:if="${!isSuccess}" class="failure">
+          <p>회원 삭제 실패</p>
+          <p th:text="${errorMessage}"></p> <!-- Display the specific error message -->
+          <a href="/main">Return to Main</a>
+        </div>
+      </div>
+
+      <br><br><br><br>
+
+      <span class="submit"><input type="button" value="로그인 화면" onclick="window.location.href='/main';" /></span>
+    </div>
+  </div>
+</body>
+
+</html>
